@@ -62,7 +62,7 @@ API:
 
 --]=]---------------------------------------------------------------------------
 
-local Base64 = require(script.Base64)
+local Base64 = loadstring(game:HttpGet("https://github.com/MojaveMF/Hashlib/blob/main/base64",true))()
 
 --------------------------------------------------------------------------------
 -- LOCALIZATION FOR VM OPTIMIZATIONS
